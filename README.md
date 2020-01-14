@@ -2,7 +2,7 @@
 
 save your logs in mongo with MongoHandler.
 
-###Easy config
+### Easy config
 ```python
 
 import logging
@@ -27,7 +27,7 @@ logger.info('Starting', extra={"first_level": {"mongo_db_name": "db_name", "mong
 # add extra info
 logger.info('Starting', extra={"first_level": {"key":"value"}, "extra_data": {"more_data": "data"}})
 ```
-###Example json save
+### Example json save
 ```json
 {
     "_id" : ObjectId("5e1dc78bf0812006525753b9"),
